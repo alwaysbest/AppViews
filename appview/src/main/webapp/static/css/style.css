@@ -822,7 +822,6 @@ content: '';
   }
   .navbar .navbar-right {
     float: right;
-    padding-top:10px;
   }
 }
 @media screen and (max-width: 560px) {

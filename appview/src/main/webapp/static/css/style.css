@@ -636,6 +636,7 @@ body > .header {
   position: relative;
   max-height: 100px;
   z-index: 1030;
+  position: fixed;
 }
 body > .header .navbar {
   height: 50px;
@@ -2970,7 +2971,9 @@ vertical-align: top;
   background: #35404d;
 }
 .skin-black .left-side {
-  background: #39435C;
+  background: #29648a;
+  position: fixed;
+  font-family: 'SimSun';
 }
 .skin-black .sidebar a {
   color: #eee;
@@ -4213,3 +4216,5 @@ padding: 6px 10px;
   margin-top: 15px;
   margin-right: 50px;
 }
+
+.submenu { display: none;}

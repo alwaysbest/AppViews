@@ -1,9 +1,9 @@
 function yesterdayChart(chart1){
-    var mychart = echarts.init(document.getElementById('chart1'));
+    var mychart = echarts.init(document.getElementById('linechart'));
                 option = {
-                    title: {
-                        text: '昨日客流统计分布——年龄'
-                    },
+//                    title: {
+//                        text: '昨日客流统计分布——年龄'
+//                    },
                     tooltip: {
                         trigger: 'axis'
                     },

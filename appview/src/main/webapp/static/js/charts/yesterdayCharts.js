@@ -1,5 +1,5 @@
 function yesterdayChart(chart1){
-    var mychart = echarts.init(document.getElementById('linechart'));
+    var mychart = echarts.init(document.getElementById('agechart'));
                 option = {
 //                    title: {
 //                        text: '昨日客流统计分布——年龄'
